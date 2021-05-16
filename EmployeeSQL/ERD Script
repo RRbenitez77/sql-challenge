@@ -1,0 +1,48 @@
+# Modify this code to update the DB schema diagram.
+# To reset the sample schema, replace everything with
+# two dots ('..' - without quotes).
+
+Employees
+-
+emp_no int Pk
+emp.title_id string Fk >- Title.emp_no
+birth_date Date 
+first_name varchar(30)
+last_name varchar(30)
+hire_date Date
+
+
+Dept_Emp
+-
+emp_no int Fk >- Employees.emp_no
+dept_no varchar(8) Fk >- Departments.dept_no
+from_date Date
+to_date Date
+
+
+Departments
+-
+dept_no varchar(8) Pk 
+dept_name varchar(25)
+
+Dept_Mgr
+-
+dept_no varchar(8) Fk >- Departments.dept_no
+emp_no int Fk >- Employees.emp_no
+from_date Date
+to_date Date
+
+Salaries
+-
+emp_no int Fk >- Employees.emp_no
+salary int 
+from_date Date
+to_date Date
+
+
+Title
+-
+emp_no varchar(30) 
+title  varchar(30)
+from_date Date
+to_date Date
