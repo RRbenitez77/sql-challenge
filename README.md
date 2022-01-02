@@ -31,7 +31,7 @@ Note: You may hear the term "Data Modeling" in place of "Data Engineering," but 
 #### Data Modeling
 
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
-
+![QuickDBD-Free Diagram](https://user-images.githubusercontent.com/33403205/147866016-62f28f19-00a4-4c4b-a900-bca2be3b83c0.png)
 #### Data Engineering
 
 * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
@@ -98,7 +98,7 @@ Evidence in hand, you march into your boss's office and present the visualizatio
 * Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
 
 * Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
- ![QuickDBD-Free Diagram](https://user-images.githubusercontent.com/33403205/147866016-62f28f19-00a4-4c4b-a900-bca2be3b83c0.png)
+ 
 ## Rubric
 
 [Unit 9 Rubric - SQL Homework - Employee Database: A Mystery in Two Parts](https://docs.google.com/document/d/1OksnTYNCT0v0E-VkhIMJ9-iG0_oXNwCZAJlKV0aVMKQ/edit?usp=sharing)
