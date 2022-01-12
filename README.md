@@ -1,36 +1,17 @@
-# SQL Homework - Employee Database: A Mystery in Two Parts
+# SQL Work
 
 ![sql.png](sql.png)
 
-## Background
+## Data Analysis/Engineering with SQl
 
-It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
+In this projects, I designed tables with data in the CSVs from Old employee information, then imported the CSVs into a SQL database, and quiered the data. 
 
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
 
-1. Data Engineering
 
-3. Data Analysis
-
-Note: You may hear the term "Data Modeling" in place of "Data Engineering," but they are the same terms. Data Engineering is the more modern wording instead of Data Modeling.
-
-### Before You Begin
-
-1. Create a new repository for this project called `sql-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the SQL challenge. Use a folder name to correspond to the challenge: **EmployeeSQL**.
-
-4. Add your files to this folder.
-
-5. Push the above changes to GitHub.
-
-## Instructions
 
 #### Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
+Here is where I used the tools to  Inspect the CSVs and sketch out an Entity Relational Diagram (EDRD) and constructed them into tables.
 ![QuickDBD-Free Diagram](https://user-images.githubusercontent.com/33403205/147866016-62f28f19-00a4-4c4b-a900-bca2be3b83c0.png)
 #### Data Engineering
 
@@ -43,27 +24,24 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 
 #### Data Analysis
 
-Once you have a complete database, do the following:
+After organizing the Data in the CSV, SQL was used to organize the Data details from categories of each Employee,Emplyee number,Last name, First Name , Sex and Salary.
 
-1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+![Screen Shot 2022-01-01 at 11 04 10 PM](https://user-images.githubusercontent.com/33403205/149108052-2de64924-bfd7-4c63-af05-69da8b3eb99b.png)
 
-2. List first name, last name, and hire date for employees who were hired in 1986.
+Also List were made with the following details of each manager,and listed Department number,department name,and the Managers employeee number along with Last and First names. Categorized the following..
 
-3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+* List the department of each employee with the following information: employee number, last name, first name, and department name.
 
-4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+* List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 
-5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+* List all employees in the Sales department, including their employee number, last name, first name, and department name.
 
-6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+* List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+* In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+![Screen Shot 2022-01-12 at 4 26 00 AM](https://user-images.githubusercontent.com/33403205/149108132-2b76f7b3-a97d-445f-82eb-4303b9bc2711.png)
 
-## Bonus (Optional)
-
-As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
 
 1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the code below to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
 
@@ -75,41 +53,10 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 * Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
 
-* If using a password, do not upload your password to your GitHub repository. See [https://www.youtube.com/watch?v=2uaTPmNvH0I](https://www.youtube.com/watch?v=2uaTPmNvH0I) and [https://help.github.com/en/github/using-git/ignoring-files](https://help.github.com/en/github/using-git/ignoring-files) for more information.
+
 
 2. Create a histogram to visualize the most common salary ranges for employees.
 
 3. Create a bar chart of average salary by title.
 
-## Epilogue
 
-Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
-
-## Submission
-
-* Create an image file of your ERD.
-
-* Create a `.sql` file of your table schemata.
-
-* Create a `.sql` file of your queries.
-
-* (Optional) Create a Jupyter Notebook of the bonus analysis.
-
-* Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
- 
-## Rubric
-
-[Unit 9 Rubric - SQL Homework - Employee Database: A Mystery in Two Parts](https://docs.google.com/document/d/1OksnTYNCT0v0E-VkhIMJ9-iG0_oXNwCZAJlKV0aVMKQ/edit?usp=sharing)
-
-- - -
-
-
-## References
-
-Mockaroo, LLC. (2021). Realistic Data Generator. [https://www.mockaroo.com/](https://www.mockaroo.com/)
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
