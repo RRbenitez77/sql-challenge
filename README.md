@@ -5,6 +5,7 @@
 ## Data Analysis/Engineering with SQl
 
 In this projects, I designed tables with data in the CSVs from Old employee information, then imported the CSVs into a SQL database, and quiered the data. 
+![Screen Shot 2022-01-12 at 4 20 17 AM](https://user-images.githubusercontent.com/33403205/149118166-e1ebbdc9-112c-4237-b40c-4706adaeb47b.png)
 
 
 
@@ -26,7 +27,7 @@ Here is where I used the tools to  Inspect the CSVs and sketch out an Entity Rel
 
 After organizing the Data in the CSV, SQL was used to organize the Data details from categories of each Employee,Emplyee number,Last name, First Name , Sex and Salary.
 
-![Screen Shot 2022-01-01 at 11 04 10 PM](https://user-images.githubusercontent.com/33403205/149108052-2de64924-bfd7-4c63-af05-69da8b3eb99b.png)
+
 
 Also List were made with the following details of each manager,and listed Department number,department name,and the Managers employeee number along with Last and First names. Categorized the following..
 
