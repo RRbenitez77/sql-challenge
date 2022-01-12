@@ -18,11 +18,11 @@ Here is where I used the tools to  Inspect the CSVs and sketch out an Entity Rel
 
 * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
 
-  * For the primary keys check to see if the column is unique, otherwise create a [composite key](https://en.wikipedia.org/wiki/Compound_key). Which takes to primary keys in order to uniquely identify a row.
-  * Be sure to create tables in the correct order to handle foreign keys.
+  * Created Constrains to keep links between column from being destroyed and configured incorrectly and keeping parent table intact.
+![Screen Shot 2022-01-12 at 5 01 29 AM](https://user-images.githubusercontent.com/33403205/149119234-4bf12ced-f9dd-44dd-adc0-898fe2558a41.png)
 
-* Import each CSV file into the corresponding SQL table. **Note** be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
-
+* Imported each CSV file into the corresponding SQL table. 
+* 
 #### Data Analysis
 
 After organizing the Data in the CSV, SQL was used to organize the Data details from categories of each Employee,Emplyee number,Last name, First Name , Sex and Salary.
@@ -52,12 +52,8 @@ Also List were made with the following details of each manager,and listed Depart
    connection = engine.connect()
    ```
 
-* Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
+*  [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) 
 
 
-
-2. Create a histogram to visualize the most common salary ranges for employees.
-
-3. Create a bar chart of average salary by title.
 
 
