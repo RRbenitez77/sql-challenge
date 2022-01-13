@@ -4,7 +4,8 @@
 
 ## Data Analysis/Engineering with SQl
 
-In this projects, I designed tables with data from CSVs from Old employee Company information, then imported the CSVs into a SQL database, and quiered the data. 
+In this projects, I modified tables of data from CSVs from Old employee Company information, then imported the CSVs into a SQL database, quiered the data and organized into intelligible insights.
+
 ![Screen Shot 2022-01-12 at 4 20 17 AM](https://user-images.githubusercontent.com/33403205/149118166-e1ebbdc9-112c-4237-b40c-4706adaeb47b.png)
 
 
@@ -44,7 +45,6 @@ Also List were made with the following details of each manager,and listed Depart
 ![Screen Shot 2022-01-12 at 4 26 00 AM](https://user-images.githubusercontent.com/33403205/149108132-2b76f7b3-a97d-445f-82eb-4303b9bc2711.png)
 
 
-1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the code below to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
 
    ```sql
    from sqlalchemy import create_engine
