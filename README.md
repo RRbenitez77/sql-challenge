@@ -32,15 +32,15 @@ After organizing the Data in the CSV, SQL was used to organize the Data details 
 
 Also List were made with the following details of each manager,and listed Department number,department name,and the Managers employeee number along with Last and First names. Categorized the following..
 
-* List the department of each employee with the following information: employee number, last name, first name, and department name.
+* Listed the departments of each employee with the following information: employee number, last name, first name, and department name.
 
-* List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+* Created list for  first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 
-* List all employees in the Sales department, including their employee number, last name, first name, and department name.
+* All employees in the Sales department listed, including their employee number, last name, first name, and department name.
 
-* List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+* All employees in the Sales and Development departments listed , including their employee number, last name, first name, and department name.
 
-* In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+* In descending order, listed the frequency count of employee last names, i.e., how many employees share each last name.
 
 ![Screen Shot 2022-01-12 at 4 26 00 AM](https://user-images.githubusercontent.com/33403205/149108132-2b76f7b3-a97d-445f-82eb-4303b9bc2711.png)
 
